@@ -1,0 +1,93 @@
+/* Set A4 Page Size */
+@page {
+    size: A4;
+    margin: 1in;
+}
+
+/* Reset styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for A4 formatting */
+.container {
+    width: 210mm;  /* A4 width */
+    height: 700mm;
+    background: white;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Reset & Centering */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Image Container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Round Image */
+.image-container img {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Research Section */
+.research {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #555;
+    text-align: justify;
+}
+
+/* Print Styling */
+@media print {
+    body {
+        background: white;
+    }
+    .container {
+        box-shadow: none;
+        width: 100%;
+        padding: 0;
+    }
+}

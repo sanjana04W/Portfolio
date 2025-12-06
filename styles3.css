@@ -1,0 +1,97 @@
+/* Set A4 page size */
+@page {
+    size: A4;
+    margin: 1in;
+}
+
+/* Reset default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Main container with A4 width */
+.container {
+    width: 210mm; /* A4 width */
+    height: auto; /* Dynamic height */
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+
+/* Section styles */
+h1{
+    text-align: center;
+    font-size: 24px;
+} 
+
+h2 {
+    text-align: left;
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Profile Picture */
+.profile img {
+    display: block;
+    margin: 10px auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Print Styling */
+@media print {
+    body {
+        background: white;
+    }
+    .container {
+        box-shadow: none;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+

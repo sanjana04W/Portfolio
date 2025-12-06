@@ -1,0 +1,77 @@
+/* Set A4 Page Size */
+@page {
+    size: A4;
+    margin: 1in;
+}
+
+/* Reset styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for A4 formatting */
+/* Container for A4 formatting */
+.container {
+    width: 210mm;  /* A4 width */
+    height: 700mm;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h5 {
+    text-align:left; 
+    font-size:small; 
+}
+
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    color: darkgreen;
+}
+
+section {
+    margin: 20px 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color:blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+}
+
+

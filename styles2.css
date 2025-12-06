@@ -1,0 +1,85 @@
+/* Set A4 Page Size */
+@page {
+    size: A4;
+    margin: 1in;
+}
+
+/* Reset styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for A4 formatting */
+/* Container for A4 formatting */
+.container {
+    width: 210mm;  /* A4 width */
+    height: 200mm;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+
+/* Contact section */
+.contact {
+    text-align: left;
+}
+
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Icons and Links */
+p i {
+    color: black;
+    margin-right: 8px;
+}
+
+a {
+    color: #0073b1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Print Styling */
+@media print {
+    body {
+        background: white;
+    }
+    .container {
+        box-shadow: none;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
